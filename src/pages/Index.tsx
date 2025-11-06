@@ -1,6 +1,9 @@
 import { Header } from "@/components/layout/Header";
 import Hero from "@/components/landing/Hero";
 import SocialProof from "@/components/landing/SocialProof";
+import GraphicDemo from "@/components/landing/GraphicDemo";
+import Features from "@/components/landing/Features";
+import NumericSocialProof from "@/components/landing/NumericSocialProof";
 import { MadeWithDyad } from "@/components/made-with-dyad";
 
 const Index = () => {
@@ -10,6 +13,9 @@ const Index = () => {
       <main className="flex-grow">
         <Hero />
         <SocialProof />
+        <GraphicDemo />
+        <Features />
+        <NumericSocialProof />
         {/* As próximas seções serão adicionadas aqui */}
       </main>
       <footer className="py-8">
