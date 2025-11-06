@@ -4,7 +4,12 @@ import SocialProof from "@/components/landing/SocialProof";
 import GraphicDemo from "@/components/landing/GraphicDemo";
 import Features from "@/components/landing/Features";
 import NumericSocialProof from "@/components/landing/NumericSocialProof";
-import { MadeWithDyad } from "@/components/made-with-dyad";
+import HowItWorks from "@/components/landing/HowItWorks";
+import PlatformDemo from "@/components/landing/PlatformDemo";
+import BlackFriday from "@/components/landing/BlackFriday";
+import Pricing from "@/components/landing/Pricing";
+import Faq from "@/components/landing/Faq";
+import Footer from "@/components/layout/Footer";
 
 const Index = () => {
   return (
@@ -16,11 +21,13 @@ const Index = () => {
         <GraphicDemo />
         <Features />
         <NumericSocialProof />
-        {/* As próximas seções serão adicionadas aqui */}
+        <HowItWorks />
+        <PlatformDemo />
+        <BlackFriday />
+        <Pricing />
+        <Faq />
       </main>
-      <footer className="py-8">
-        <MadeWithDyad />
-      </footer>
+      <Footer />
     </div>
   );
 };
